@@ -11,7 +11,7 @@ app = Flask(__name__)
 # Config
 # -------------------------
 MODEL_PATH = "best.pt"         # วาง best.pt ไว้ในโฟลเดอร์เดียวกับ app.py
-YOLOV5_REPO = "yolov5"  # โฟลเดอร์ YOLOv5 local
+YOLOV5_REPO = "yolov5-master"  # โฟลเดอร์ YOLOv5 local
 PORT = 5050                     # เปลี่ยนพอร์ตเพื่อไม่ชนกับโปรแกรมอื่น
 
 # -------------------------
